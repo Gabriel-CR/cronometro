@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #232334;
+}
+
+.center {
+    width: 63%;
+    height: 35%;
+    background-color: #575278;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.329);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.time {
+    height: 100px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 220px;
+}
+
+button {
+    width: 30%;
+    height: 70px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.active {
+    display: none;
+}
+
+.parar {
+    background-color: #E967679A;
+}
+
+.parar:hover {
+    background-color: #E96767;
+}
+
+.iniciar {
+    background-color: #A6E9679A;
+}
+
+.iniciar:hover {
+    background-color: #A6E967;
+}
+
+.gravar {
+    background-color: #67AfE99A;
+}
+
+.gravar:hover {
+    background-color: #67AFE9;
+}
