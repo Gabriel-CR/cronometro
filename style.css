@@ -52,6 +52,19 @@ body {
     background-color: rgba(255, 0, 0, 0.842);
 }
 
+.limpar-historico {
+    background-color: rgba(255, 0, 0, 0.493);
+    position: absolute;
+    height: 5%;
+    width: 60%;
+    top: 43px;
+    right: 100%;
+}
+
+.limpar-historico:hover {
+    background-color: rgba(255, 0, 0, 0.842);
+}
+
 .btn {
     display: flex;
     flex-direction: row;

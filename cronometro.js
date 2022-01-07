@@ -3,9 +3,9 @@ let iniciar = document.querySelector('.iniciar');
 let parar = document.querySelector('.parar');
 let cronometro = document.querySelector('.time');
 let gravados = document.querySelector('.tempo-gravado');
-let clear = document.querySelector('.limpar')
+let clear = document.querySelector('.limpar');
+let historico = document.querySelector('.limpar-historico');
 
-let t = 1000;
 let hora = 00;
 let minuto = 00;
 let segundo = 00;
@@ -37,7 +37,7 @@ iniciar.addEventListener('click', () => {
     parar.classList.remove('active');
     tempo = setInterval(() => {
         iniciarCronometro()
-    }, t);
+    }, 1000);
 });
 
 parar.addEventListener('click', () => {
@@ -54,4 +54,8 @@ clear.addEventListener('click', () => {
     segundo = 00;
     cronometro.innerHTML = '00 : 00 : 00';
     pararCronometro();
+});
+
+historico.addEventListener('click', () => {
+    alert('oi');
 });
