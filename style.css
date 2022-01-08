@@ -20,18 +20,18 @@ body {
     border-radius: 50px;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 45%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
 
 .time {
-    height: 100px;
+    height: 50%;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 95px;
+    font-size: 10vh;
     position: absolute;
-    top: 30%;
+    top: 15vh;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -52,34 +52,21 @@ body {
     background-color: rgba(255, 0, 0, 0.842);
 }
 
-.limpar-historico {
-    background-color: rgba(255, 0, 0, 0.493);
-    position: absolute;
-    height: 5%;
-    width: 60%;
-    top: 43px;
-    right: 100%;
-}
-
-.limpar-historico:hover {
-    background-color: rgba(255, 0, 0, 0.842);
-}
-
 .btn {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin: auto;
-    padding-top: 220px;
+    padding-top: 20vh;
 }
 
 button {
     width: 30%;
-    height: 70px;
+    height: 8vh;
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 3vh;
     color: white;
     outline: none;
     border: none;
@@ -116,7 +103,7 @@ button {
 
 .tempo-gravado {
     height: 100%;
-    width: 15%;
+    width: 20%;
     position: absolute;
     right: 0;
     background-color: #232334;
@@ -128,7 +115,7 @@ button {
 
 .tempo-gravado p {
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 2vw;
     color: white;
     margin-top: 10px;
     text-align: center;
